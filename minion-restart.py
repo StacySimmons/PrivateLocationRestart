@@ -25,7 +25,7 @@ def main():
     container_name = args.containername
     queue_limit = int(args.queuelimit)
     insights_key = args.insightsapikey
-    random_var = 0
+    random_var = 5
 
     event_type = 'CPMRestart'
 
